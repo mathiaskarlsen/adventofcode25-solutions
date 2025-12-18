@@ -21,8 +21,6 @@ foreach ($file_array as $line) {
     if ($position == 0) {
 	$zero_count += 1;
     }
-    /* echo "$direction $distance\n"; */
-    /* echo "$position $zero_count\n"; */
 };
 echo "part 1: $zero_count\n";
 
@@ -54,7 +52,5 @@ foreach ($file_array as $line) {
     if ($position == 0) {
 	$zero_count += 1;
     }
-    /* echo "$direction $distance\n"; */
-    /* echo "$position $zero_count\n"; */
 };
 echo "part 2: $zero_count\n";
