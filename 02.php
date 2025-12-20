@@ -37,6 +37,7 @@ foreach ($id_ranges as $id_range) {
 
 echo "Part 1: $sum_invalid_ids\n";
 
+// Part 2, this solutuion does not work. See: 02_2.php
 function invalid_ids2(array $id_range) {
     [$start, $end] = $id_range;
     $invalid_id_set = [];
